@@ -14,11 +14,13 @@ git clone https://github.com/taesookang/template-cli.git template-cli
 cd template-cli
 ```
 
-### 3. In /templates directory, add project template with any name you want it to be appeared in console 
+### 3. Create `/templates` directory and in this directory, add project templates with any name you want it to be appeared in console 
 
 example:
 
 ```bash
+mkdir templates
+
 cd templates
 
 yarn create next-app next-js-template
